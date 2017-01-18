@@ -13,7 +13,7 @@ class Bank_account
   puts "Adding #{@balance} + #{deposit_amount}"
  end
  def deposit(deposit_amount)
-  @balance += deposit_amount
+  @balance -= deposit_amount
   puts "Subtract #{@balance} - #{deposit_amount}"
  end
 end
